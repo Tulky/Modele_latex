@@ -1,0 +1,37 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{lipsum}
+
+\author{Antoine Audouin}
+
+\newcommand{\MONTITRE}{TITRE}
+\newcommand{\MONSOUSTITRE}{SOUS TITRE}
+\title{
+\begin{tabular}{p{3.5cm} r}
+& {\Huge {\bf \MONTITRE}}\\
+& {\huge \MONSOUSTITRE}\\
+& version du \today{}
+\end{tabular}
+}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Ma super section}
+\lipsum [1-2]
+\subsubsection{Ma super sous section}
+
+\section{Toto a la plage}
+\subsubsection{Toto a la campagne}
+
+
+
+\end{document}
